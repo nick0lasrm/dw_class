@@ -3,12 +3,8 @@
 
 }
 
-.line2 {
-    line-height: 0;
-}
-
 .marge {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .marg {
@@ -42,6 +38,14 @@ a {
 }
 
 h4 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+ul {
     font-family: Arial;
     font-style: normal;
     font-size: 18px;
