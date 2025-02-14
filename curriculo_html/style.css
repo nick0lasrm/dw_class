@@ -3,15 +3,21 @@
 
 }
 
+.pad {
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
 .marge {
     margin-top: 60px;
 }
 
 .marg {
     margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 50px;
+    margin-left: 410px;
+    margin-right: 450px;
     margin-bottom: 50px;
+    border: solid black 1.5px;
 }
 
 .quebra {
