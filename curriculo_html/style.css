@@ -4,7 +4,7 @@
 }
 
 .pad {
-    padding-left: 80px;
+    padding-left: 85px;
     padding-top: 100px;
     padding-bottom: 300px;
 }
@@ -14,7 +14,7 @@
 
 .marg {
     margin-top: 50px;
-    margin-left: 410px;
+    margin-left: 450px;
     margin-right: 450px;
     margin-bottom: 50px;
     border: solid black 1.5px;
@@ -22,7 +22,7 @@
 
 .quebra {
     height: 3px;
-    width: 830px;
+    width: 760px;
     background-color: blue;
     margin-left: 2px;
 }
