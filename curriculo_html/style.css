@@ -2,11 +2,23 @@
     line-height: 0.4;
 
 }
+@media screen and (max-width: 1080px){
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+}   
+.container {
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+}
 
 .pad {
-    padding-left: 85px;
+    padding-left: 75px;
     padding-top: 100px;
     padding-bottom: 300px;
+    padding-right: 75px;
 }
 .marge {
     margin-top: 60px;
@@ -14,8 +26,8 @@
 
 .marg {
     margin-top: 50px;
-    margin-left: 240px;
-    margin-right: 270px;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 50px;
     border: solid black 1.5px;
 }
