@@ -25,6 +25,7 @@
 }
 
 .marg {
+    background-color: rgb(250, 250, 250);
     margin-top: 50px;
     margin-left: 250px;
     margin-right: 250px;
@@ -34,7 +35,7 @@
 
 .quebra {
     height: 3px;
-    width: 760px;
+    width: 730px;
     background-color: blue;
     margin-left: 2px;
 }
