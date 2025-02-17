@@ -14,23 +14,29 @@
      justify-content: space-around;
 }
 
-.pad {
-    padding-left: 75px;
+
+body {
+    padding-left: 500px;
     padding-top: 100px;
-    padding-bottom: 300px;
-    padding-right: 75px;
+    width: 892px;
+    height: 1132px;
 }
+
 .marge {
     margin-top: 60px;
+    width: 870px;
 }
 
 .marg {
-    background-color: rgb(250, 250, 250);
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 50px;
+    padding-top: 60px;
+    padding-left: 75px;
+    width: 815px;
+    height: 1070px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(253, 253, 253);
     border: solid black 1.5px;
+    box-shadow: rgb(77, 77, 77) 20px 20px 20px;
 }
 
 .quebra {
