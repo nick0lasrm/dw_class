@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1080px){
     .container {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: 100%;
     }
 }   
