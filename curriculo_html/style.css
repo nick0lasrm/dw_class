@@ -4,8 +4,8 @@
 }
 @media screen and (max-width: 1080px){
     .container {
-        flex-wrap: nowrap;
         width: 100%;
+        flex-direction: column;
     }
 }   
 .container {
