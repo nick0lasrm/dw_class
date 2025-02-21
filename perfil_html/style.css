@@ -1,3 +1,14 @@
 body {
     background-color: black;
+    margin: auto;
+}
+
+.back {
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
 }
