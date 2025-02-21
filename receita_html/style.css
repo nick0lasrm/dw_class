@@ -45,7 +45,7 @@ h1 {
 
 h4 {
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
@@ -56,15 +56,26 @@ h4 {
     border-radius: 15px;
     padding: 10px;
     padding-left: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-ul {
+.pr {
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.9;
     font-weight: bold;
+    color: rgb(65, 65, 65);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 span {
     font-weight: lighter;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+h2 {
+    color: rgb(141, 82, 27);
+    font-size: 26px;
 }
