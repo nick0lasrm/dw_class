@@ -6,9 +6,10 @@ body {
 img {
     border-radius: 15px;
     width: 680px;
-    height: 400px;
+    height: 380px;
     margin: auto;
 }
+
 .margem {
     text-align: center;
     width: 800px;
@@ -18,13 +19,15 @@ img {
 }
 
 .marg {
-    text-align:left;
+    text-align: left;
     padding-left: 60px;
 }
 
 h1 {
-    font-size: 42px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Monomakh';
+    font-size: 38px;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 .back {
@@ -35,4 +38,8 @@ h1 {
     width: 800px;
     height: 3000px;
     text-align: center;
+}
+
+h4 {
+    font-weight: lighter;
 }
