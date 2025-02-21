@@ -18,24 +18,23 @@
 body {
     display: flex;
     margin: auto;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .marge {
     margin-top: 60px;
-    width: 815px;
+    width: 690px;
 }
 
 .marg {
     padding-top: 60px;
-    padding-left: 75px;
-    width: 815px;
-    height: 1070px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: rgb(253, 253, 253);
     border: solid black 1.5px;
     box-shadow: rgb(77, 77, 77) 20px 20px 20px;
+    text-align: justify;
 }
 
 .quebra {
@@ -49,6 +48,7 @@ h2 {
     font-family: 'Times New Roman';
     font-style: italic;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -74,5 +74,6 @@ ul {
     font-style: normal;
     font-size: 18px;
     font-weight: lighter;
-    margin-top: 0px;
+    margin: auto;
+    line-height: 1.4;
 }
