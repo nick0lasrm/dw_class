@@ -40,7 +40,7 @@ body {
 
 .quebra {
     height: 3px;
-    width: 730px;
+    width: 710px;
     background-color: blue;
     margin-left: 2px;
 }
@@ -50,6 +50,7 @@ h2 {
     font-style: italic;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 23px;
 }
 
 h3 {
@@ -77,4 +78,8 @@ ul {
     font-weight: lighter;
     margin: auto;
     line-height: 1.4;
+}
+
+h1 {
+    font-size: 28px;
 }
