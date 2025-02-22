@@ -7,11 +7,11 @@ body {
 }
 
 .back {
-    padding-top: 58px;
+    padding-top: 50px;
     margin: auto;
     text-align: center;
-    width: 450px;
-    height: 650px;
+    width: 420px;
+    height: 620px;
     background-color: rgb(25, 25, 25);
     border-radius: 18px;
 }
@@ -20,14 +20,14 @@ body {
     margin-bottom: 5px;
     font-size: small;
     color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Gill Sans', sans-serif;
 }
 
 .p2 {
     margin-top: 5px;
-    color: yellow;
+    color: rgba(212, 255, 57, 0.815);
     font-size: small;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Gill Sans', sans-serif
 }
 
 .p3 {
@@ -44,9 +44,9 @@ body {
     margin: auto;
     background-color: rgb(48, 48, 48);
     width: 350px;
-    height: 55px;
+    height: 50px;
     color: white;
     border-radius: 10px;
     font-size: 13px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
 }
