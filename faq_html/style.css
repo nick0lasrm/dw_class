@@ -1,12 +1,29 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: rgb(243, 230, 255);
     margin: auto;
 }
 
 .p1 {
-    text-align: center;
-    width: 500px;
-    height: 500px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 18px;
+}
+
+.p2 {
+    background-color: rgb(50, 0, 73);
+    width: 1500px;
+    height: 250px;
+    
+}
+
+.p3 {
+    margin-top: 120px;
 }
