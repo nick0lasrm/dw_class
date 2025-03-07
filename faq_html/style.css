@@ -11,16 +11,17 @@ body {
 
 .p1 {
     margin: auto;
-    width: 570px;
-    height: 500px;
+    width: 600px;
+    height: 550px;
     background-color: white;
     border-radius: 18px;
 }
 
 .p2 {
     background-color: rgb(53, 5, 63);
+    margin-bottom: 550px;
     width: 1500px;
-    height: 250px;
+    height: 270px;
     
 }
 
@@ -30,5 +31,5 @@ body {
     color: rgb(42, 4, 50);
     font-weight: bold;
     font-size: 50px;
-    font-family:'Gill Sans', sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
