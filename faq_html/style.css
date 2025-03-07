@@ -11,7 +11,9 @@ body {
 
 .p1 {
     margin: auto;
-    width: 600px;
+    padding-left: 40px;
+    margin-top: 100px;
+    width: 570px;
     height: 550px;
     background-color: white;
     border-radius: 18px;
@@ -26,8 +28,23 @@ body {
 
 .p3 {
     margin-top: 120px;
+    padding-left: 20px;
     color: rgb(42, 4, 50);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 52px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.p4 {
+    width: 7%;
+    height: 7%;
+    padding-top: 55px;
+}
+
+.p5 {
+    color: rgb(42, 4, 50); 
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: medium;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
