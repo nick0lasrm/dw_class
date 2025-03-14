@@ -7,14 +7,15 @@
 body {
     background-color: rgb(243, 230, 255);
     margin: auto;
+    font-family: "Work Sans", sans-serif;
 }
 
 .caixa {
     margin: auto;
     padding-left: 40px;
     margin-top: 150px;
-    width: 570px;
-    height: 580px;
+    width: 590px;
+    height: 600px;
     background-color: white;
     border-radius: 18px;
 }
@@ -27,12 +28,12 @@ body {
 }
 
 .p3 {
-    margin-top: 120px;
+    margin-top: 20px;
     padding-left: 20px;
     color: rgb(42, 4, 50);
     font-weight: bold;
-    font-size: 52px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size: 58px;
+    display: inline-block;
 }
 
 .star {
@@ -43,20 +44,19 @@ body {
 
 .p4 {
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(147, 147, 147);
-    padding-right: 20px;
+    padding-right: 30px;
     line-height: 25px;
     margin-top: 25px;
+    font-size: 17px;
     
 }
 
 .p5 {
     color: rgb(42, 4, 50); 
     margin-top: 35px;
+    font-size: 19px;
     font-weight: bold;
-    font-size: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline-flex;
     margin-bottom: 0;
 }
@@ -69,8 +69,12 @@ body {
     margin-bottom: 1px;
 }
 
-.icon1 {
-    src: url(./remove-circle.svg);
-    width: 6%;
-    display: inline-flex;
+.icons {
+    display: none;
+}
+
+.iconPlus {
+}
+
+.iconMinus {
 }
