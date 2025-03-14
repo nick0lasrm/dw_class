@@ -8,7 +8,7 @@
 .container {
     margin: auto;
     padding-left: 40px;
-    margin-top: 250px;
+    margin-top: 180px;
     margin-bottom: 200px;
     width: 590px;
     height: 600px;
@@ -31,7 +31,6 @@ body {
     color: rgb(42, 4, 50);
     font-weight: bold;
     font-size: 58px;
-    display: inline-block;
 }
 
 .star {
@@ -45,24 +44,34 @@ body {
     color: rgb(147, 147, 147);
     padding-right: 30px;
     line-height: 25px;
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 17px;
     
 }
 
 .p5 {
     color: rgb(42, 4, 50); 
-    margin-top: 35px;
+    margin-top: 30px;
     font-size: 19px;
     font-weight: bold;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 0;
+    align-items: text-bottom;
 }
 
 .quebra {
-    width: 500px;
+    width: 545px;
     margin-left: 0;
-    margin-top: 30px;
-    opacity: 30%;
+    margin-top: 15px;
+    opacity: 15%;
     margin-bottom: 1px;
+}
+
+.icons {
+    padding-right: 40px;
+}
+
+.space {
+    margin-top: 55px;
 }
