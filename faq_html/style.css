@@ -1,31 +1,29 @@
+@media screen and (max-width: 1080px){
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+}   
+
 .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-body {
-    background-color: rgb(243, 230, 255);
-    margin: auto;
-    font-family: "Work Sans", sans-serif;
-}
-
-.caixa {
     margin: auto;
     padding-left: 40px;
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-bottom: 200px;
     width: 590px;
     height: 600px;
     background-color: white;
     border-radius: 18px;
 }
 
-.fundo {
-    background-image: url(./fundo1.jpg);
-    margin-bottom: 550px;
-    width: 1500px;
-    height: 320px;
+body {
+    background-image: url(./imgs/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(243, 230, 255);
+    font-family: "Work Sans", sans-serif;
 }
+
 
 .p3 {
     margin-top: 20px;
