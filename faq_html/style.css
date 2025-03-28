@@ -1,32 +1,40 @@
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1200px){
     .container {
-        width: 100%;
         flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
     }
 }   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container {
     margin: auto;
     padding-left: 40px;
     margin-top: 165px;
     margin-bottom: 200px;
-    width: 590px;
-    height: 600px;
+    width: 90vh;
+    height: 85vh;
     background-color: white;
     border-radius: 18px;
 }
 
 body {
+    align-content: center;
+    align-items: center;
+    display: flex;
     background-image: url(./imgs/fundo1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
     background-color: rgb(243, 230, 255);
     font-family: "Work Sans", sans-serif;
 }
 
 
 .p3 {
-    margin-top: 20px;
     padding-left: 20px;
     color: rgb(42, 4, 50);
     font-weight: bold;
@@ -56,8 +64,6 @@ body {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0;
-    align-items: text-bottom;
 }
 
 .quebra {
