@@ -1,10 +1,21 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
     font-size: larger;
+    background-color: white;
+    width: 100%;
+}
+.container1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
 }
 
 body {
@@ -12,61 +23,62 @@ body {
     color: rgb(95, 95, 95);
 }
 
-.box {
-    display: flex;
-}
-
-.box1 {
-    display: flex;
-    gap: 2px;
-}
-
 .header {
     width: 100%;
-    padding-bottom: 5%;
+    height: 12vh;
     background-color:rgb(88, 209, 233);
     text-align: center;
 }
 
 .conteudo {
     text-align: center; 
-    width: 78%;
+    width: 80%;
     background-color: rgb(229, 83, 149);
+    height: 70vh;
 }
 
 .sidebar {
     text-align: center;
-    width: 22%;
-    height: 69vh;
+    width: 20%;
     background-color: rgb(255, 190, 111);
 }
 
-
-
-.parte2 {
+.partes {
     flex-grow: 1;
-    width: 56%;
+    width: 50%;
     background-color: rgb(88, 244, 77);
     text-align: center;
-    padding-bottom: 7%;
+    height: 18vh;
 }
 
-.parte {
-    width: 22%;
+.partes:nth-child(1) {
+    width: 20%;
     background-color: rgb(88, 244, 77);
-    text-align: center;
 }
 
-.parte:nth-child(1) {
-}
-.parte:nth-child(3) {
+.partes:nth-child(3) {
+    width: 20%;
+    background-color: rgb(88, 244, 77);
 }
 
-
-@media screen and (max-width: 1200px){
-    .container, .parte, .parte2, .sidebar, .conteudo, .header, .box, .box1 {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
+/* Desktop */
+@media screen and (max-width: 1028px) {
+    .container {
+        flex-direction: row;
     }
-}   
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1027px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+}
