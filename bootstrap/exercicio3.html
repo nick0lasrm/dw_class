@@ -9,7 +9,7 @@
         integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body>
@@ -17,22 +17,27 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand mx-2" href="#"><i class="fa-solid fa-bars fa-lg" style="color: #383838;"></i></a>
-            <a class="navbar-nav mb-lg-0" href="#"> <img src="/bootstrap/imgs/gmail.svg" alt="logo" width="100"
+            <a class="navbar-nav mb-lg-0" href="#"> <img src="/bootstrap/imgs/gmail.svg" alt="logo" width="80"
                     height="50"> </a>
-            <div class="mx-auto">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-5" src="" type="search" placeholder="Search mail" aria-label="Search">
-                </form>
+            <span class="navbar-brand text-dark">Gmail</span>
+            <div class="d-flex mx-auto w-25">
+                <button class="btn btn-outline-secondary rounded-circle border-0" type="button" id="button-addon1"><i
+                        class="fa-solid fa-magnifying-glass" style="color: #383838;"></i></button>
+                <input type="text" class="form-control rounded-pill" placeholder="Search mail"
+                    aria-label="Example text with button addon" aria-describedby="button-addon1">
             </div>
-            <a class="navbar-brand px-2" href="#">
-                <i class="fa-regular fa-circle-question fa-xl p-3" style="color: #383838;"></i>
+            <a class="navbar-brand mx-3" href="#">
+                <i class="fa-regular fa-circle-question fa-lg " style="color: #383838;"></i>
             </a>
-            <a class="navbar-brand" href="#">
-                <i class="fa-solid fa-gear fa-flip-both fa-xl" style="color: #383838;"></i>
+            <a class="navbar-brand mx-3" href="#">
+                <i class="fa-solid fa-gear fa-lg" style="color: #383838;"></i>
             </a>
-            <a class="navbar-brand" href="#">
-                <i class="fa-sharp fa-solid fa-grid-round fa-xl" style="color: #383838;"></i>
-            </a>    
+            <a class="navbar-brand mx-3" href="#">
+                <i class="fa-solid fa-grip fa-lg" style="color: #383838;"></i>
+            </a>
+            <a class="navbar-brand mx-3" href="#">
+                <i class="fa-solid fa-circle-user fa-2xl" style="color: #383838;"></i>
+            </a>
         </div>
     </nav>
 
