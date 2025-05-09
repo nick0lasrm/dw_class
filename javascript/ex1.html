@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ver média e situação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style> 
+</head>
+<body>
+
+  <h1>Ver média e situação</h1>
+  <input type="text" id="nota1" placeholder="Digite a nota de DW" />
+  <input type="text" id="nota2" placeholder="Digite a nota de BD" />
+  <input type="text" id="nota3" placeholder="Digite a nota de LP " />
+  <button onclick="verificar()">Verificar</button>
+
+  <div id="media"></div>
+
+  <script>
+    function verificar() {
+      const nota1 = parseFloat(document.getElementById("nota1").value);
+      const nota2 = parseFloat(document.getElementById("nota2").value);
+      const nota3 = parseFloat(document.getElementById("nota3").value);
+      const media = document.getElementById("media");
+
+      if (isNaN(nota1 || nota2 || nota3)) {
+        media.textContent = "Por favor, digite uma nota válida.";
+        return;
+      }
+
+      result = ((nota1 + nota2 + nota3) / 3)
+
+      if (media >= 6) {
+        media.textContent = `Sua média é ${result} você está aprovado.`;
+      } else {
+        media.textContent = `Sua média é ${result} você está reprovado.`;
+      }
+    }
+  </script>
+
+</body>
+</html>
+

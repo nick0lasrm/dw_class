@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabuada até 10</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style> 
+</head>
+<body>
+
+  <h1>Tabuada até 10</h1>
+  <input type="text" id="num" placeholder="Digite um número "/>
+  <button onclick="verificar()">Verificar</button>
+
+  <div id="result"></div>
+
+  <script>
+    function verificar() {
+      const num = parseInt(document.getElementById("num").value);
+      const result = document.getElementById("result");
+
+      if (isNaN(num)) {
+        result.textContent = "Por favor, digite um número válido.";
+        return;
+      }
+
+      for (let i = 0; i < 10; i++){
+        result.textContent += num + " x " + i + " = " + (num * i);
+      }
+
+    }
+  </script>
+
+</body>
+</html>
+
