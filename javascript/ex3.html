@@ -25,7 +25,6 @@
   <h1>Mostrar de 1 a 100</h1>
   <input type="text" id="numero" placeholder="Digite um número" />
   <button onclick="verificar()">Verificar</button>
-
   <div id="resultado"></div>
 
   <script>
@@ -33,15 +32,8 @@
       const num = parseInt(document.getElementById("numero").value);
       const resultado = document.getElementById("resultado");
 
-      if (isNaN(num)) {
-        resultado.textContent = "Por favor, digite um número válido.";
-        return;
-      }
-
-      if (num % 2 === 0) {
-        resultado.textContent = `O número ${num} é PAR.`;
-      } else {
-        resultado.textContent = `O número ${num} é ÍMPAR.`;
+      for (num=0;num<100;num++){
+        resultado.textContent = num;
       }
     }
   </script>

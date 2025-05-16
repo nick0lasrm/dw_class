@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 7</title>
+    <style>
+        body {
+            background-color: #bcbcbc;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 0;
+        }
+
+        h1,
+        input,
+        button,
+        div {
+            font-weight: 800;
+        }
+
+        input {
+            border-radius: 5px;
+            border: 0;
+            padding: 1rem 3rem;
+        }
+
+        button {
+            border: 0;
+            background-color: #0000a6;
+            color: #e8e8e8;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0000ff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>VERIFICAR SE É PRIMO</h1>
+    <input type="number" id="numero" placeholder="Digite um número" />
+    <button onclick="verificar()">Verificar</button>
+
+    <div id="resultado"></div>
+
+    <script>
+        function verificar() {
+            let num = parseInt(document.getElementById('numero').value);
+            let resultado = document.getElementById('resultado');
+            let primo = true;
+
+            for (let i=2;i<num;i++){
+                if(num % i == 0){
+                    primo = false;
+                }
+            }
+            if (primo){
+                resultado.textContent = num + " é primo";
+            }
+            else{
+                resultado.textContent = um + " não é primo";
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

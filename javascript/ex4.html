@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 4</title>
+    <style>
+        body {
+            background-color: #bcbcbc;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 0;
+        }
+
+        h1,
+        input,
+        button,
+        div {
+            font-weight: 800;
+        }
+
+        input {
+            border-radius: 5px;
+            border: 0;
+            padding: 1rem 3rem;
+        }
+
+        button {
+            border: 0;
+            background-color: #0000a6;
+            color: #e8e8e8;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0000ff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SOMA NÚMEROS</h1>
+    <input type="number" id="numero" placeholder="Digite um número ou zero" />
+    <button onclick="somar()">Verificar</button>
+
+    <div id="resultado"></div>
+
+    <script>
+        let soma = 0;
+        function somar() {
+            let num = parseFloat(document.getElementById('numero').value)
+            let result = document.getElementById('resultado');
+            soma = soma + num;
+            result.textContent = soma;
+
+            if (num === 0) {
+                result.textContent = 'O total é ' + soma
+                soma = 0;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
